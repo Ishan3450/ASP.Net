@@ -1,0 +1,18 @@
+Web.config --> 
+
+appSettings  key-value  configurationmanager.appsettings("version")
+compilation debug, explicit, strict,
+customErrors redirectMode="ResonseRedirect" responseRewrite --> This tag is used to make custom errors
+404 -> File not Found
+
+Authentication --> 
+modes = 
+none = open site
+forms = .aspx login id/pwd
+windows = windows os id/pwd
+passport =  Single Domaim id/pwd, Single Sign On like : yt,googleMail,oneDirve,icloud
+
+pc/laptop mahcine.config --> web.config machine level version
+	  machine.config.comments --> document
+	  mahcine.config.default --> To File Default as it Comes
+

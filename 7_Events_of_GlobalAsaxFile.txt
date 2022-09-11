@@ -1,0 +1,7 @@
+Application_start
+Application_end
+session_start
+session_end
+Application_authenticaterequest
+application_beginrequest
+application_error

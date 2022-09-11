@@ -1,0 +1,9 @@
+Msil-->Microsoft Intermediate Language
+Cil-->Common Intermediate Language
+IL-->Intermediate Language
+Cli--> Common Language Infrastructure
+CLR-->Common Language Runtime(CLR is the heart of the Program)
+meta-data--> meta data is data about data
+Assembly--> Global(Must Be Uniqie) and Local(Must not Be Unique)
+DLL--> Dynamic Link Library
+

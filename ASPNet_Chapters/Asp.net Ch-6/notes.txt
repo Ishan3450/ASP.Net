@@ -1,0 +1,36 @@
+CRUD Operation
+
+Select Query
+
+Dim con As New OleDb.OleDbConnection("")
+Dim ad As New OleDb.OleDbDataAdapter("select * from emp", con)
+Dim ds As New DataSet
+
+con.Open()
+as.Fill(ds)
+con.Close()
+
+gridview1.Datasource = ds.Tables(0) //GridView will be taken in .aspx file
+gridview1.databind()
+
+In .aspx file
+<asp:GridView ID="gridview1" runat="server" />
+
+DML Queries
+
+Dim con As New OleDb.OleDbConnection("")
+Dim cmd As New OleDb.OleDbCommand("insert into stdnt value(1,''IJ','IT')", con)
+				   updates student set marks=50 where enno=1
+				   delete from student where enno = 1
+
+con.Open()
+cmd.ExecuteNonQuery()
+con.Close()
+
+Response.write("DML Successfull!")
+
+gridview1.Datasource = ds.Tables(0) //GridView will be taken in .aspx file
+gridview1.databind()
+
+
+Three Methods of Command Method :
